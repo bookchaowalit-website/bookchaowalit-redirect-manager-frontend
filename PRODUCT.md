@@ -19,6 +19,14 @@ See `README.md` for install and run instructions when present.
 - Not claimed as production-ready unless README and tests prove it.
 - Mobile smoke / emulator acceptance is separate and toolchain-dependent.
 
+## Current product truth
+
+- A browser-local redirect rule desk with exact path matching and a test path.
+- Visitors can add 301/302/307 rules, delete rules, and see the matching
+  destination for a sample path.
+- Rules persist in localStorage; there is no server, CDN integration, publish
+  step, authentication, or multi-tenant claim.
+
 ## Source README excerpt
 
 ```
